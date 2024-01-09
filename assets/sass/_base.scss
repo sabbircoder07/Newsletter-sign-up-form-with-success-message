@@ -52,7 +52,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 75rem;
+  width: 80rem;
   height: auto;
   border-radius: 9px;
 
@@ -71,7 +71,7 @@ body {
   font-weight: 700;
 }
 .signup-container--content {
-  padding: 4.4rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -179,7 +179,7 @@ input {
 }
 
 .signup-container--img {
-  width: 50%;
+  width: 40rem;
   height: 48rem;
   background: url("../images/illustration-sign-up-desktop.svg");
   background-repeat: no-repeat;
