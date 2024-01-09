@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@media only screen and (width <= 61.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  background-color: #242742;
+  max-width: 128rem;
+  min-height: calc(100vh - 8vw);
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.signup-container {
+  flex: 1 1 / 2;
+  background-color: #fff;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  width: 75rem;
+  height: auto;
+  display: flex;
+}
+
+.heading-primary {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.signup-container--content {
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4.4rem;
+  display: flex;
+}
+
+.options {
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: none;
+  display: flex;
+}
+
+.option {
+  cursor: pointer;
+  gap: 1rem;
+  display: flex;
+}
+
+.signup {
+  flex-direction: column;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.signup__column {
+  flex-direction: column;
+  gap: .4rem;
+  width: 100%;
+  display: flex;
+}
+
+label {
+  color: inherit;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+input {
+  border: none;
+  border-radius: .5rem;
+  width: 100%;
+  padding: 1.2rem 1rem;
+  font-size: 1.5rem;
+  transition: all .3s;
+  box-shadow: 0 0 0 1px #ddd;
+}
+
+input::placeholder {
+  color: #9294a0;
+}
+
+input:focus {
+  background-color: #e9ecef;
+  outline: none;
+  box-shadow: 0 0 0 1px #ced4da;
+}
+
+.error-message {
+  color: #c92a2a;
+  border-radius: 5px;
+  gap: 5px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  transition: all .3s;
+  display: flex;
+}
+
+.error-message--extend {
+  background-color: #ffe3e3;
+  height: 4rem;
+  padding: 1rem 0 .5rem 1rem;
+  transition: all .3s;
+}
+
+.error-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.invalid-email-id:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #e03131;
+}
+
+.btn {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #242742;
+  border: none;
+  border-radius: 9px;
+  width: 100%;
+  margin-top: 1.6rem;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ff6257;
+}
+
+.signup-container--img {
+  background: url("illustration-sign-up-desktop.1e3b4b18.svg") 0 0 / cover no-repeat;
+  width: 50%;
+  height: 45rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+.success-message-container {
+  background-color: #fff;
+  border-radius: 9px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 35rem;
+  padding: 3rem;
+  display: flex;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.email-id {
+  color: #d9480f;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+#cuntdown {
+  background-color: #ff6257;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=index.c8334574.css.map */
