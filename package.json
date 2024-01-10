@@ -1,0 +1,20 @@
+{
+  "name": "newsletter-sign-up-with-success-message",
+  "version": "1.0.0",
+  "description": "newsletter sign up with success message",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "sabbir ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.3",
+    "sass": "^1.69.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3"
+  }
+}
